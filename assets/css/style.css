@@ -1,6 +1,19 @@
+html{
+  background-color: #95a5a6;
+  font-family: "Helvetica", Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
 form{
-  width: 350px;
-  margin: 0 auto;
+  width: 350px; 
   background-color: #ecf0f1;
   border-radius: 5px;
   box-shadow: 3px 3px 10px #333; 
@@ -11,4 +24,8 @@ input, label{
   display: block;
   width: 100%;
   box-sizing: border-box;
+}
+
+.field{
+  border: none;
 }
