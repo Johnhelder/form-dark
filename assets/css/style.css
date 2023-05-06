@@ -26,6 +26,22 @@ input, label{
   box-sizing: border-box;
 }
 
+label{
+  padding: .35em;
+}
+
+#botao{
+  margin-top: .55em;
+}
+
 .field{
   border: none;
+}
+
+input{
+  padding: .75em;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  border: 1px solid #bbb;
+  font-size: 1em;
 }
