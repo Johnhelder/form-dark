@@ -32,6 +32,16 @@ label{
 
 #botao{
   margin-top: .55em;
+  width: fit-content;
+  color: #fff;
+  cursor: pointer;
+  background-color: #0808b9;
+}
+
+#botao:hover{
+  background-color: #fff;
+  color: #03035c;
+  font-weight: bold;
 }
 
 .field{
@@ -44,4 +54,13 @@ input{
   margin-bottom: 1.5em;
   border: 1px solid #bbb;
   font-size: 1em;
+}
+
+legend{
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: #454e4f;
+  font-size: 1.2em;
+  margin-bottom: .5em;
 }
