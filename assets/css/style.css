@@ -67,7 +67,7 @@ input{
 h1{  
   font-weight: bold;
   color: #454e4f;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: .5em;
 }
 
@@ -95,11 +95,17 @@ h1{
   display: flex;
   align-items: center;
   cursor: pointer;
-  border-bottom: 1px solid #454e4f;
+  border-bottom: 2px solid #000;
 }
 
+  
  .input-field{
-display: flex;
-justify-content: space-between;  
+display: flex;   
 align-items: center;
  }
+
+ .fa-user{
+  display: flex;
+  align-items: center;
+ }
+  
