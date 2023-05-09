@@ -18,7 +18,7 @@ form{
   border-radius: 5px;
   box-shadow: 3px 3px 10px #333; 
   margin-top: 30px;
-  padding: 15px 15px; 
+  padding: 15px 10px; 
 }
 
 .form-info{
@@ -29,7 +29,7 @@ form{
 
 input, label{
   display: block;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
 }
 
@@ -90,3 +90,16 @@ h1{
   width: 50px;
  transform: scale(1.5);
 }
+
+#nome{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #454e4f;
+}
+
+ .input-field{
+display: flex;
+justify-content: space-between;  
+align-items: center;
+ }
