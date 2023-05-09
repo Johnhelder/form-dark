@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>form-dark</title>
 </head>
@@ -12,19 +13,40 @@
 <body>
   <div class="form">
     <form>
-      <fieldset>
 
-        <legend>Informe seus dados</legend>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Nome">
+      <div class="form-info">
+        <h1>Informe seus dados</h1>
+        <input type="checkbox" class="checkbox" id="chk">
+        <label for="chk" class="label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="bola"></div>
+        </label>
 
-        <label for="email">E-mail</label>
-        <input type="text" id="email" placeholder="E-mail">
+      </div>
+      <div id="inputs">
+        <div class="input-box">
+          <label for="name">
+            Nomes
+            <div class="input-field">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" id="name" name="name">
+            </div>
+          </label>
+        </div>
+      </div>
+      <div>
+      <label for="nome">Nome</label>
+      <i class="fa-regular fa-user"></i>
+      <input type="text" id="nome" placeholder="Nome">
+    </div>
+      <label for="email">E-mail</label>
+      <input type="text" id="email" placeholder="E-mail">
 
-        <label for="senha">Senha</label>
-        <input type="password" id="senha" placeholder="Senha">
-        <input type="submit" name="botao" id="botao" value="Cadastrar">
-      </fieldset>
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Senha">
+      <input type="submit" name="botao" id="botao" value="Cadastrar">
+
     </form>
   </div>
   <script src="./assets/js/script.js"></script>
