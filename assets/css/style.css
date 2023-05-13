@@ -1,5 +1,4 @@
-html{
-  background-color: #510399;
+html{ 
   font-family: "Helvetica", Arial, Helvetica, sans-serif;
 }
  
@@ -12,9 +11,13 @@ body{
   margin: 0; 
 }
 
+body.dark{
+background: #000;
+}
+
 form{
   width: 350px; 
-  background-color: #ecf0f1;
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 10px #333; 
   margin-top: 30px;
