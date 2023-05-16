@@ -11,10 +11,12 @@ body{
   margin: 0; 
 }
 
-body.dark{
+/* body.dark{
 background: #000;
+} */
+body.dark{
+  background: #000;
 }
-
 form{
   width: 350px; 
   background-color: #fff;
