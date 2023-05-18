@@ -5,10 +5,10 @@
 // });
 
 const form = document.getElementById('form');
-const tag = [...document.getElementsByTagName(form)];
+const tag = [...document.getElementsByTagName('form')];
 
 form.addEventListener('change', () =>{
-  document.tag.classList.toggle('dark');
+  document.body.classList.toggle('dark');
 });
 
 // console.log(tag);
